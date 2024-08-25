@@ -1,0 +1,383 @@
+{
+	"id": "13412a5a-bb7e-4ecb-b648-3c04b0b03431",
+	"name": "API Testing-SOAP Project#1",
+	"timestamp": "2024-08-25T03:57:17.181Z",
+	"collection_id": "36933065-d590322b-5801-40a6-ae51-9ea90ad95d3f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 1,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-25T03:57:10.876Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "166daf7f-63cd-42be-88e9-48a10f0e3a3f",
+			"name": "TC1-Positive Testcase",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 967,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				967
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "264ccfde-2929-4923-b3c2-a0ea78937f07",
+			"name": "TC16-Positive Testcase Check Content-Type is Present",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 218,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				218
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "20e06710-c9fd-41be-b8d1-de981db29e88",
+			"name": "TC15-Positive Testcase with Status Code 200",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				209
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c744243b-51ce-4372-8315-06a02870ef81",
+			"name": "TC2-Negative Testcase with Invalid Number",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0452bece-0561-4b64-9790-dd55bd649999",
+			"name": "TC3-Negative Testcase with Special Character",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 212,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				212
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "627bddc5-a3bc-4ae5-af8c-27a9c2f67bf3",
+			"name": "TC4-Negative Testcase with Character",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b55c55c5-fd27-4302-bd45-7587c4417116",
+			"name": "TC5-Negative Testcase with Decimal Numbers",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				211
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "91221a56-4b37-4fee-8829-10fa0eb225c1",
+			"name": "TC6-Negative Testcase with Numbers and Letters",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fe93cc21-c16f-4614-ac8b-81242dfb6b24",
+			"name": "TC7-Negative Testcase with Large Numbers",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "67cefb39-841c-46fb-b16b-55677bce0615",
+			"name": "TC8-Negative Testcase with Blank",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "34bce439-fa98-4e02-a0c4-8cc42330ebd0",
+			"name": "TC9-Negative Testcase with Null",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 214,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				214
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "444aa2a2-6820-42a4-9879-bf28838dd675",
+			"name": "TC10-Negative Testcase with Chinese",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 210,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				210
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "754d0c8d-5046-4963-9423-9d53c8d1ff15",
+			"name": "TC11-Negative Testcase with Space",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9ee1c813-acd6-4282-97a4-af3f992519f5",
+			"name": "TC12-Negative Testcase with Empty Headers",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 201,
+			"responseCode": {
+				"code": 415,
+				"name": "Unsupported Media Type"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				201
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "97729923-4f45-48fb-8ecd-c28ee6fc8b60",
+			"name": "TC13-Negative Testcase with zero value",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 616,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				616
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ff17e69b-e44b-49af-ac33-abe69a5315d4",
+			"name": "TC14-Negative Testcase with Combination of Letters and Special Characters",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4512,
+	"collection": {
+		"requests": [
+			{
+				"id": "166daf7f-63cd-42be-88e9-48a10f0e3a3f",
+				"method": "POST"
+			},
+			{
+				"id": "264ccfde-2929-4923-b3c2-a0ea78937f07",
+				"method": "POST"
+			},
+			{
+				"id": "20e06710-c9fd-41be-b8d1-de981db29e88",
+				"method": "POST"
+			},
+			{
+				"id": "c744243b-51ce-4372-8315-06a02870ef81",
+				"method": "POST"
+			},
+			{
+				"id": "0452bece-0561-4b64-9790-dd55bd649999",
+				"method": "POST"
+			},
+			{
+				"id": "627bddc5-a3bc-4ae5-af8c-27a9c2f67bf3",
+				"method": "POST"
+			},
+			{
+				"id": "b55c55c5-fd27-4302-bd45-7587c4417116",
+				"method": "POST"
+			},
+			{
+				"id": "91221a56-4b37-4fee-8829-10fa0eb225c1",
+				"method": "POST"
+			},
+			{
+				"id": "fe93cc21-c16f-4614-ac8b-81242dfb6b24",
+				"method": "POST"
+			},
+			{
+				"id": "67cefb39-841c-46fb-b16b-55677bce0615",
+				"method": "POST"
+			},
+			{
+				"id": "34bce439-fa98-4e02-a0c4-8cc42330ebd0",
+				"method": "POST"
+			},
+			{
+				"id": "444aa2a2-6820-42a4-9879-bf28838dd675",
+				"method": "POST"
+			},
+			{
+				"id": "754d0c8d-5046-4963-9423-9d53c8d1ff15",
+				"method": "POST"
+			},
+			{
+				"id": "9ee1c813-acd6-4282-97a4-af3f992519f5",
+				"method": "POST"
+			},
+			{
+				"id": "97729923-4f45-48fb-8ecd-c28ee6fc8b60",
+				"method": "POST"
+			},
+			{
+				"id": "ff17e69b-e44b-49af-ac33-abe69a5315d4",
+				"method": "POST"
+			}
+		]
+	}
+}
