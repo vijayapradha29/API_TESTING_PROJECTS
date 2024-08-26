@@ -1,0 +1,666 @@
+{
+	"id": "427d7be4-041d-42df-b6ee-e56f7a01ed6e",
+	"name": "API SOAP Testing-Project#2",
+	"timestamp": "2024-08-26T04:02:39.909Z",
+	"collection_id": "36933065-f5c940c8-6095-44da-a6ae-3a5a1dbae379",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-26T04:02:27.867Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e23e7af6-df44-4813-9109-f6cf290bf22d",
+			"name": "TC#1-Positive Test Case",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 728,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				728
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ee6dac0d-0b37-4f02-9e40-2a504cf73a2d",
+			"name": "TC#6-Positive Test Case with Content type",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 254,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				254
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "92dd64b9-713b-42c9-bf59-f24e4a89eab7",
+			"name": "TC#5-Positive Test Case with Status Code",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3927a9eb-8403-4e73-a3f5-2c91d6d05781",
+			"name": "TC#2-Negative Test Case with Long Numbers",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 258,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				258
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d63707e0-e36c-4b92-ac2f-cc1fe97e8c50",
+			"name": "TC#3-Negative Test case with Characters",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 312,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				312
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "01e2d24e-46da-44e7-85aa-6aabffa1fca5",
+			"name": "TC#4-Positive Test case with no Headers",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 329,
+			"responseCode": {
+				"code": 415,
+				"name": "Unsupported Media Type"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				329
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6b226ae7-2331-4881-83fb-c2086c19bdde",
+			"name": "TC#1-Positive Test Case",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 350,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				350
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3a6ceb87-aee7-4d8d-b11e-4708890cb23d",
+			"name": "TC#6-Positive Test Case with Content Type",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 252,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				252
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "a13766ba-add7-415e-b31c-83f611b63f5f",
+			"name": "TC#5-Positive Test Case with Status Code",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 316,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				316
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5273d6dd-dd81-4c7f-a6fe-d61eaa3bd4e8",
+			"name": "TC#4-Negative Test Case with Characters",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 336,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				336
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d79cb57d-8fcd-418e-a929-fad12b58f551",
+			"name": "TC#2-Negative Test Case with invalid Input",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 252,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				252
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e28d389a-dcf5-44bc-8c0f-1aa223f8de7e",
+			"name": "TC#3-PositiveTest Case with no Headers",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 254,
+			"responseCode": {
+				"code": 415,
+				"name": "Unsupported Media Type"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				254
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9b7828b9-c227-4cb3-9178-b85516446ec5",
+			"name": "TC#1-Positive Test Case",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				312
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4d062135-6a8e-49ca-a5dd-4782daa87db9",
+			"name": "TC#3-Positive Test Case with Status Code",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 268,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				268
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "624776cf-d007-48a5-956b-2324ded8875f",
+			"name": "TC#2-Positive Test Case with no Headers",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 251,
+			"responseCode": {
+				"code": 415,
+				"name": "Unsupported Media Type"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				251
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "53fc193c-40ce-4b00-8cae-5315b3c7dabc",
+			"name": "TC#4-Negative Test Case with long numbers",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 331,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				331
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f9074457-c432-48eb-a03a-54485d0dd0e5",
+			"name": "TC#5-Negative Test Case with Characters",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 350,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				350
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c078a5b4-06e6-450b-89f0-9b78fe08a7e5",
+			"name": "TC#7-Negative Test Case with Zero",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 352,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				352
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3aed84e1-451f-45fe-ba81-81f5699120cb",
+			"name": "TC#6-Positive  Test Case with Content Type",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 325,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				325
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "d93816eb-36b8-40ad-bdc5-51322c1132b9",
+			"name": "TC#1-Positive Test Case",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				330
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0de28b15-14b9-42f9-806f-6a0401ea5ae9",
+			"name": "TC#4-Positive Test Case with Content type",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 318,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				318
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "6d1b6c3f-3b9b-40d9-9bdb-40235a46e3a5",
+			"name": "TC#3-Positive Test Case with Status Code",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 322,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				322
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0e6c74ac-dc52-401a-b0b3-1ae3372c07bf",
+			"name": "TC#2-Positive Test Case with No Headers",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 285,
+			"responseCode": {
+				"code": 415,
+				"name": "Unsupported Media Type"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				285
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "77f4e8f4-4346-49f7-84ae-9a0d7980458a",
+			"name": "TC#5-Negative Test Case with Long Numbers",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 256,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				256
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b698863c-dd72-43af-9e3d-341f0786af35",
+			"name": "TC#6-Negative Test Case with Characters",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 263,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				263
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a27e7d85-2c0f-4949-bd51-6429b5cf8105",
+			"name": "TC#7-Negative Test Case with Zero",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 332,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				332
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8215,
+	"collection": {
+		"requests": [
+			{
+				"id": "e23e7af6-df44-4813-9109-f6cf290bf22d",
+				"method": "POST"
+			},
+			{
+				"id": "ee6dac0d-0b37-4f02-9e40-2a504cf73a2d",
+				"method": "POST"
+			},
+			{
+				"id": "92dd64b9-713b-42c9-bf59-f24e4a89eab7",
+				"method": "POST"
+			},
+			{
+				"id": "3927a9eb-8403-4e73-a3f5-2c91d6d05781",
+				"method": "POST"
+			},
+			{
+				"id": "d63707e0-e36c-4b92-ac2f-cc1fe97e8c50",
+				"method": "POST"
+			},
+			{
+				"id": "01e2d24e-46da-44e7-85aa-6aabffa1fca5",
+				"method": "POST"
+			},
+			{
+				"id": "6b226ae7-2331-4881-83fb-c2086c19bdde",
+				"method": "POST"
+			},
+			{
+				"id": "3a6ceb87-aee7-4d8d-b11e-4708890cb23d",
+				"method": "POST"
+			},
+			{
+				"id": "a13766ba-add7-415e-b31c-83f611b63f5f",
+				"method": "POST"
+			},
+			{
+				"id": "5273d6dd-dd81-4c7f-a6fe-d61eaa3bd4e8",
+				"method": "POST"
+			},
+			{
+				"id": "d79cb57d-8fcd-418e-a929-fad12b58f551",
+				"method": "POST"
+			},
+			{
+				"id": "e28d389a-dcf5-44bc-8c0f-1aa223f8de7e",
+				"method": "POST"
+			},
+			{
+				"id": "9b7828b9-c227-4cb3-9178-b85516446ec5",
+				"method": "POST"
+			},
+			{
+				"id": "4d062135-6a8e-49ca-a5dd-4782daa87db9",
+				"method": "POST"
+			},
+			{
+				"id": "624776cf-d007-48a5-956b-2324ded8875f",
+				"method": "POST"
+			},
+			{
+				"id": "53fc193c-40ce-4b00-8cae-5315b3c7dabc",
+				"method": "POST"
+			},
+			{
+				"id": "f9074457-c432-48eb-a03a-54485d0dd0e5",
+				"method": "POST"
+			},
+			{
+				"id": "c078a5b4-06e6-450b-89f0-9b78fe08a7e5",
+				"method": "POST"
+			},
+			{
+				"id": "3aed84e1-451f-45fe-ba81-81f5699120cb",
+				"method": "POST"
+			},
+			{
+				"id": "d93816eb-36b8-40ad-bdc5-51322c1132b9",
+				"method": "POST"
+			},
+			{
+				"id": "0de28b15-14b9-42f9-806f-6a0401ea5ae9",
+				"method": "POST"
+			},
+			{
+				"id": "6d1b6c3f-3b9b-40d9-9bdb-40235a46e3a5",
+				"method": "POST"
+			},
+			{
+				"id": "0e6c74ac-dc52-401a-b0b3-1ae3372c07bf",
+				"method": "POST"
+			},
+			{
+				"id": "77f4e8f4-4346-49f7-84ae-9a0d7980458a",
+				"method": "POST"
+			},
+			{
+				"id": "b698863c-dd72-43af-9e3d-341f0786af35",
+				"method": "POST"
+			},
+			{
+				"id": "a27e7d85-2c0f-4949-bd51-6429b5cf8105",
+				"method": "POST"
+			}
+		]
+	}
+}
