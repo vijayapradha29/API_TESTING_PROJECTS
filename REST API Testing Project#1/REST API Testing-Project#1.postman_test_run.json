@@ -1,0 +1,1626 @@
+{
+	"id": "cc193843-65c0-4233-bffe-823b72a90a94",
+	"name": "REST API Testing-Project#1",
+	"timestamp": "2024-08-28T08:51:07.275Z",
+	"collection_id": "36933065-1f07f211-b16b-4119-a941-f7f9467f6088",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 11,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-28T08:50:46.935Z",
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "0f235527-1481-459c-b65f-315d77feebfd",
+			"name": "Create Booking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 989,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				989
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a1e73c22-a1b2-4e21-a53e-bd4189a440a0",
+			"name": "Negative Testcase#29-Create Booking with numbers and Special characters in lastname",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 209,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ec20e3e8-6c81-411d-80f5-59b252f21419",
+			"name": "Negative Testcase#28-Create Booking with numbers and characters in firstname",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				211
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "47d139a1-585d-40ff-b975-8fe3bd5cdf48",
+			"name": "Negative Testcase#22-Create Booking with Special Characters in additional needs",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 209,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e9faf6a8-fcd3-4883-9123-ad3a143120db",
+			"name": "Negative Testcase#21-Create Booking with numbers in additional needs",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "067e2cf8-1a70-449a-94c1-35e05aec401f",
+			"name": "Negative Testcase#20-Create Booking with null additional needs",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				205
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ec6d38d3-29f7-489b-9ce6-c20766b3d2a6",
+			"name": "Negative Testcase#18-Create Booking with invalid checkin dates(wrong format)",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5b57e2fd-74af-4b09-b230-0a0d9a1a6039",
+			"name": "Negative Testcase#19-Create Booking with empty additional needs",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 208,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3a426a6b-bdc3-479f-85f4-9b9dac3f0f3f",
+			"name": "Negative Testcase#17-Create Booking with invalid checkout dates(wrong format)",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				211
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "61ee408f-e303-4d6b-9fbc-5d9959c8b0d9",
+			"name": "Positive Testcase#27-Create Booking with status code 200OK",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "65c8684e-c993-46c2-ae9c-b0f549a021bf",
+			"name": "Negative Testcase#26-Create Booking with no Headers",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "15317f7d-14d8-4479-bbdf-db55769fd146",
+			"name": "Negative Testcase#25-Create Booking with special characters in depositpaid",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 206,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7f503f1a-6929-4989-a471-3e7cc8eec53d",
+			"name": "Negative Testcase#24-Create Booking with numbers depositpaid",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				205
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "68253b4a-aa9d-4b50-9496-4e2155a2a6d5",
+			"name": "Negative Testcase#1-Create Booking with numbers  in last name",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 206,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6005dc23-9f8b-46cc-a494-5c99a856ac73",
+			"name": "Negative Testcase#2-Create Booking with Invalid JSON",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 204,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				204
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "06cbe320-e25b-4a39-af5c-30dac0f0db6f",
+			"name": "Negative Testcase#3-Create Booking with Null as Firstname",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 207,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				207
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "3f6baf9f-4cb2-4d17-a97f-90ee0263659b",
+			"name": "Negative Testcase#4-Create Booking with empty First Name",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "39d49212-1400-4b6b-861a-2f0bf61b1326",
+			"name": "Negative Testcase#5-Create Booking with special characters in last name",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 206,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "721bbcbb-50e8-4a22-a7b7-00cab612f82b",
+			"name": "Negative Testcase#6-Create Booking with Total price empty",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 209,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cd8b9323-0878-4843-91c6-3e8b20fe9fd5",
+			"name": "Negative Testcase#7-Create Booking with Invalid Total price(characters)",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 206,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "92e13ac5-4877-4ddb-8a8e-39a091666a6f",
+			"name": "Negative Testcase#8-Create Booking with Special Charcters in Totalprice",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 208,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ee17b837-d04a-4dd9-bd28-b7030bd545db",
+			"name": "Negative Testcase#9-Create Booking with null depositpaid",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 207,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1a2b07fc-ac7f-4d3e-ba07-6ca4dfdcc60d",
+			"name": "Negative Testcase#10-Create Booking with empty Depositpaid",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 208,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f7b6dd3e-75cf-44a4-b019-52a4b829fae1",
+			"name": "Negative Testcase#11-Create Booking with empty checkin dates",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "aae0cab6-02a1-436c-b26d-5c07c68f5504",
+			"name": "Negative Testcase#12-Create Booking with Null Checkin dates",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 208,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de6ca8ec-aa78-4a2b-997a-57b07fa82060",
+			"name": "Negative Testcase#13-Create Booking with Special characters in checkin dates",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 207,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ad06f4b4-32a0-483e-8c4d-c59ae89e0d0c",
+			"name": "Negative Testcase#14-Create Booking with empty checkout dates",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				205
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "abbe6408-c774-4756-943e-f1c4a4ebf541",
+			"name": "Negative Testcase#15-Create Booking with null checkout dates",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 205,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				205
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "038c477d-6922-46da-8bb1-0f7eb40b6805",
+			"name": "Negative Testcase#16-Create Booking with special characters in checkout dates",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "05994f00-e333-4da7-b367-f33c8b6f78d2",
+			"name": "Negative Testcase#23-Create Booking  with long total price",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "87924417-06f9-4af5-9515-2f445bcee550",
+			"name": "Ping Request-Health Check",
+			"url": "https://restful-booker.herokuapp.com/ping",
+			"time": 207,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				207
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "320dc59c-58f1-44e4-a520-394e549d176a",
+			"name": "Negative Testcase-Ping Request-Health Check invalid URL",
+			"url": "https://restful-booker.herokuapp.com/pinggggg",
+			"time": 206,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				206
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "ae050c44-d931-472a-8629-b2bb33c73c08",
+			"name": "Get Booking with Filter",
+			"url": "https://restful-booker.herokuapp.com/booking?firstname=Vijay&lastname=Pradha",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5b2c442f-6089-43a3-946a-83bf5a15ae23",
+			"name": "Negative Testcase#2-Get Booking with Filter(invalid lastname)",
+			"url": "https://restful-booker.herokuapp.com/booking?firstname=Pet&lastname=son",
+			"time": 210,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				210
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "77269dfb-e9af-431b-bd2f-a371c9ebbfa2",
+			"name": "Negative Testcase#1-Get Booking with Filter(invalid lastname) and verify status codeCopy",
+			"url": "https://restful-booker.herokuapp.com/booking?firstname=Pet&lastname=son",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fa972aab-92f7-4961-8078-b34913e9a771",
+			"name": "Negative Test case#3-Get Booking with Filter(invalid firstname)",
+			"url": "https://restful-booker.herokuapp.com/booking?firstname=www&lastname=Brown",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7474f312-960f-4888-8625-d28fb2dab957",
+			"name": "Get All the Bookings",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 611,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				611
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "22ad452b-554f-4e7d-ba2c-9cd72cac074b",
+			"name": "Positive Testcase-Get All the Bookings",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 224,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7cc84e79-29a0-48f8-a3c7-3477fb139859",
+			"name": "Get Booking by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/1154",
+			"time": 212,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				212
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bfc9031f-47dc-417f-94b7-032680ae58c4",
+			"name": "Positive Testcase-Get Booking by ID with Status Code 200OK",
+			"url": "https://restful-booker.herokuapp.com/booking/1154",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "27938f5a-6a61-4288-a008-34c0cf414720",
+			"name": "Negative Testcase-Get Booking by invalid ID",
+			"url": "https://restful-booker.herokuapp.com/booking/100",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "575f9100-6101-4b43-ba33-b7c4a8ba348a",
+			"name": "Update Booking by ID and no header",
+			"url": "https://restful-booker.herokuapp.com/booking/1000",
+			"time": 209,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ec763741-69f4-4187-ad0f-39a20f930642",
+			"name": "Update Booking by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/10",
+			"time": 213,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				213
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fd3aec1c-b0d3-4081-85a3-668dc49d0f11",
+			"name": "Negative Testcase#1-Update Booking by invalid ID",
+			"url": "https://restful-booker.herokuapp.com/booking/1000000",
+			"time": 210,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				210
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "86a9cfcd-2372-4c9f-a685-ac65164fd862",
+			"name": "Negative Testcase#2-Update Booking by invalid ID and Status code 405ok",
+			"url": "https://restful-booker.herokuapp.com/booking/1000000",
+			"time": 211,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Status code is 405": true
+			},
+			"testPassFailCounts": {
+				"Status code is 405": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Status code is 405": true
+				}
+			]
+		},
+		{
+			"id": "2bf53e97-1b3a-4389-9264-f629adc54bb8",
+			"name": "Partial Update by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/1000",
+			"time": 211,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				211
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "31c03ec9-866f-4174-8e95-b5652a347467",
+			"name": "Partial Update by ID and no header",
+			"url": "https://restful-booker.herokuapp.com/booking/1000",
+			"time": 211,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				211
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "07792608-e744-49e7-8598-e951b0815bd4",
+			"name": "Positive testcase-Partial Update by ID and status code 200 ok",
+			"url": "https://restful-booker.herokuapp.com/booking/1000",
+			"time": 215,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "329bc856-d599-4f6c-8287-0bcde2c23a6d",
+			"name": "Negative Testcase-Partial Update by  Invalid ID",
+			"url": "https://restful-booker.herokuapp.com/booking/000",
+			"time": 209,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "612d1d0f-1fae-49a2-8b95-2d70a8267b9a",
+			"name": "Negative testcase#2-Delete Booking by Invalid ID",
+			"url": "https://restful-booker.herokuapp.com/booking/1154",
+			"time": 209,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "21a8bafe-32ea-4fa9-a23b-756f9a2906a2",
+			"name": "Negative testcase#1-Delete Booking by Invalid ID and no header",
+			"url": "https://restful-booker.herokuapp.com/booking/1154",
+			"time": 207,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "771b2f9f-51b8-490a-ae59-7df2b01909fd",
+			"name": "Delete Booking by valid ID",
+			"url": "https://restful-booker.herokuapp.com/booking/1000",
+			"time": 207,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9e5fce5b-9155-4ba9-b4ef-da41f157e496",
+			"name": "Positive testcase-Delete Booking by valid ID and status code 201",
+			"url": "https://restful-booker.herokuapp.com/booking/717",
+			"time": 211,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "45528f09-fbfc-4b98-80da-9a6bc2d84e2a",
+			"name": "Step1-Create Booking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				205
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "055ef4a9-6eda-485f-9711-9d36f9f33ceb",
+			"name": "Step2-Delete Booking by valid ID",
+			"url": "https://restful-booker.herokuapp.com/booking/3281",
+			"time": 208,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ecee2c9c-dadc-40da-9dc4-acf4c7c8138d",
+			"name": "Step3-Get Booking by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/3281",
+			"time": 208,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e1b87adc-8a05-4ffb-8db0-0bfa0bc0668d",
+			"name": "Step1-Create Booking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 203,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				203
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b36087ab-edf4-49c1-8e8f-ff8b40e89cfb",
+			"name": "Step2-Update Booking by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/639",
+			"time": 211,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				211
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fcf4d640-9eaa-4a8e-afaf-887774917ac9",
+			"name": "Step3-Get Booking by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/639",
+			"time": 210,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				210
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b17aebb6-902f-4e16-ada8-37b405393c2c",
+			"name": "Step1-Create Booking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4023d175-c24f-4a6a-b270-fbfb4b21eb04",
+			"name": "step2-Partial Update by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/1614",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "778131cc-9e5f-458e-87db-4d1583d45aeb",
+			"name": "step3-Delete Booking by valid ID",
+			"url": "https://restful-booker.herokuapp.com/booking/1614",
+			"time": 210,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				210
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "db678bb1-b940-47a2-bf9f-6f8e8b25426f",
+			"name": "Step4-Get Booking by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/1614",
+			"time": 207,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f8d914f6-b8a1-460f-98bf-89ad05a00a5d",
+			"name": "Step1-Create Booking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 204,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				204
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "029c96bd-3c85-4dcb-a7df-0e07a364e6bf",
+			"name": "Step2-Delete Booking by valid ID",
+			"url": "https://restful-booker.herokuapp.com/booking/3931",
+			"time": 211,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				211
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "be60d3fd-93c8-48dd-ac1c-0425f44b02f5",
+			"name": "Step1-Get All the Bookings",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 213,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				213
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7c9b0671-037d-46aa-9ec7-7da381ced458",
+			"name": "Step2-Update Booking by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/127",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				208
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9b6da4f9-837f-4e9b-8439-64be776c1885",
+			"name": "Step3-Get Booking by ID",
+			"url": "https://restful-booker.herokuapp.com/booking/127",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				207
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 15344,
+	"collection": {
+		"requests": [
+			{
+				"id": "0f235527-1481-459c-b65f-315d77feebfd",
+				"method": "POST"
+			},
+			{
+				"id": "a1e73c22-a1b2-4e21-a53e-bd4189a440a0",
+				"method": "POST"
+			},
+			{
+				"id": "ec20e3e8-6c81-411d-80f5-59b252f21419",
+				"method": "POST"
+			},
+			{
+				"id": "47d139a1-585d-40ff-b975-8fe3bd5cdf48",
+				"method": "POST"
+			},
+			{
+				"id": "e9faf6a8-fcd3-4883-9123-ad3a143120db",
+				"method": "POST"
+			},
+			{
+				"id": "067e2cf8-1a70-449a-94c1-35e05aec401f",
+				"method": "POST"
+			},
+			{
+				"id": "ec6d38d3-29f7-489b-9ce6-c20766b3d2a6",
+				"method": "POST"
+			},
+			{
+				"id": "5b57e2fd-74af-4b09-b230-0a0d9a1a6039",
+				"method": "POST"
+			},
+			{
+				"id": "3a426a6b-bdc3-479f-85f4-9b9dac3f0f3f",
+				"method": "POST"
+			},
+			{
+				"id": "61ee408f-e303-4d6b-9fbc-5d9959c8b0d9",
+				"method": "POST"
+			},
+			{
+				"id": "65c8684e-c993-46c2-ae9c-b0f549a021bf",
+				"method": "POST"
+			},
+			{
+				"id": "15317f7d-14d8-4479-bbdf-db55769fd146",
+				"method": "POST"
+			},
+			{
+				"id": "7f503f1a-6929-4989-a471-3e7cc8eec53d",
+				"method": "POST"
+			},
+			{
+				"id": "68253b4a-aa9d-4b50-9496-4e2155a2a6d5",
+				"method": "POST"
+			},
+			{
+				"id": "6005dc23-9f8b-46cc-a494-5c99a856ac73",
+				"method": "POST"
+			},
+			{
+				"id": "06cbe320-e25b-4a39-af5c-30dac0f0db6f",
+				"method": "POST"
+			},
+			{
+				"id": "3f6baf9f-4cb2-4d17-a97f-90ee0263659b",
+				"method": "POST"
+			},
+			{
+				"id": "39d49212-1400-4b6b-861a-2f0bf61b1326",
+				"method": "POST"
+			},
+			{
+				"id": "721bbcbb-50e8-4a22-a7b7-00cab612f82b",
+				"method": "POST"
+			},
+			{
+				"id": "cd8b9323-0878-4843-91c6-3e8b20fe9fd5",
+				"method": "POST"
+			},
+			{
+				"id": "92e13ac5-4877-4ddb-8a8e-39a091666a6f",
+				"method": "POST"
+			},
+			{
+				"id": "ee17b837-d04a-4dd9-bd28-b7030bd545db",
+				"method": "POST"
+			},
+			{
+				"id": "1a2b07fc-ac7f-4d3e-ba07-6ca4dfdcc60d",
+				"method": "POST"
+			},
+			{
+				"id": "f7b6dd3e-75cf-44a4-b019-52a4b829fae1",
+				"method": "POST"
+			},
+			{
+				"id": "aae0cab6-02a1-436c-b26d-5c07c68f5504",
+				"method": "POST"
+			},
+			{
+				"id": "de6ca8ec-aa78-4a2b-997a-57b07fa82060",
+				"method": "POST"
+			},
+			{
+				"id": "ad06f4b4-32a0-483e-8c4d-c59ae89e0d0c",
+				"method": "POST"
+			},
+			{
+				"id": "abbe6408-c774-4756-943e-f1c4a4ebf541",
+				"method": "POST"
+			},
+			{
+				"id": "038c477d-6922-46da-8bb1-0f7eb40b6805",
+				"method": "POST"
+			},
+			{
+				"id": "05994f00-e333-4da7-b367-f33c8b6f78d2",
+				"method": "POST"
+			},
+			{
+				"id": "87924417-06f9-4af5-9515-2f445bcee550",
+				"method": "GET"
+			},
+			{
+				"id": "320dc59c-58f1-44e4-a520-394e549d176a",
+				"method": "GET"
+			},
+			{
+				"id": "ae050c44-d931-472a-8629-b2bb33c73c08",
+				"method": "GET"
+			},
+			{
+				"id": "5b2c442f-6089-43a3-946a-83bf5a15ae23",
+				"method": "GET"
+			},
+			{
+				"id": "77269dfb-e9af-431b-bd2f-a371c9ebbfa2",
+				"method": "GET"
+			},
+			{
+				"id": "fa972aab-92f7-4961-8078-b34913e9a771",
+				"method": "GET"
+			},
+			{
+				"id": "7474f312-960f-4888-8625-d28fb2dab957",
+				"method": "GET"
+			},
+			{
+				"id": "22ad452b-554f-4e7d-ba2c-9cd72cac074b",
+				"method": "GET"
+			},
+			{
+				"id": "7cc84e79-29a0-48f8-a3c7-3477fb139859",
+				"method": "GET"
+			},
+			{
+				"id": "bfc9031f-47dc-417f-94b7-032680ae58c4",
+				"method": "GET"
+			},
+			{
+				"id": "27938f5a-6a61-4288-a008-34c0cf414720",
+				"method": "GET"
+			},
+			{
+				"id": "575f9100-6101-4b43-ba33-b7c4a8ba348a",
+				"method": "PUT"
+			},
+			{
+				"id": "ec763741-69f4-4187-ad0f-39a20f930642",
+				"method": "PUT"
+			},
+			{
+				"id": "fd3aec1c-b0d3-4081-85a3-668dc49d0f11",
+				"method": "PUT"
+			},
+			{
+				"id": "86a9cfcd-2372-4c9f-a685-ac65164fd862",
+				"method": "PUT"
+			},
+			{
+				"id": "2bf53e97-1b3a-4389-9264-f629adc54bb8",
+				"method": "PATCH"
+			},
+			{
+				"id": "31c03ec9-866f-4174-8e95-b5652a347467",
+				"method": "PATCH"
+			},
+			{
+				"id": "07792608-e744-49e7-8598-e951b0815bd4",
+				"method": "PATCH"
+			},
+			{
+				"id": "329bc856-d599-4f6c-8287-0bcde2c23a6d",
+				"method": "PATCH"
+			},
+			{
+				"id": "612d1d0f-1fae-49a2-8b95-2d70a8267b9a",
+				"method": "DELETE"
+			},
+			{
+				"id": "21a8bafe-32ea-4fa9-a23b-756f9a2906a2",
+				"method": "DELETE"
+			},
+			{
+				"id": "771b2f9f-51b8-490a-ae59-7df2b01909fd",
+				"method": "DELETE"
+			},
+			{
+				"id": "9e5fce5b-9155-4ba9-b4ef-da41f157e496",
+				"method": "DELETE"
+			},
+			{
+				"id": "45528f09-fbfc-4b98-80da-9a6bc2d84e2a",
+				"method": "POST"
+			},
+			{
+				"id": "055ef4a9-6eda-485f-9711-9d36f9f33ceb",
+				"method": "DELETE"
+			},
+			{
+				"id": "ecee2c9c-dadc-40da-9dc4-acf4c7c8138d",
+				"method": "GET"
+			},
+			{
+				"id": "e1b87adc-8a05-4ffb-8db0-0bfa0bc0668d",
+				"method": "POST"
+			},
+			{
+				"id": "b36087ab-edf4-49c1-8e8f-ff8b40e89cfb",
+				"method": "PUT"
+			},
+			{
+				"id": "fcf4d640-9eaa-4a8e-afaf-887774917ac9",
+				"method": "GET"
+			},
+			{
+				"id": "b17aebb6-902f-4e16-ada8-37b405393c2c",
+				"method": "POST"
+			},
+			{
+				"id": "4023d175-c24f-4a6a-b270-fbfb4b21eb04",
+				"method": "PATCH"
+			},
+			{
+				"id": "778131cc-9e5f-458e-87db-4d1583d45aeb",
+				"method": "DELETE"
+			},
+			{
+				"id": "db678bb1-b940-47a2-bf9f-6f8e8b25426f",
+				"method": "GET"
+			},
+			{
+				"id": "f8d914f6-b8a1-460f-98bf-89ad05a00a5d",
+				"method": "POST"
+			},
+			{
+				"id": "029c96bd-3c85-4dcb-a7df-0e07a364e6bf",
+				"method": "DELETE"
+			},
+			{
+				"id": "be60d3fd-93c8-48dd-ac1c-0425f44b02f5",
+				"method": "GET"
+			},
+			{
+				"id": "7c9b0671-037d-46aa-9ec7-7da381ced458",
+				"method": "PUT"
+			},
+			{
+				"id": "9b6da4f9-837f-4e9b-8439-64be776c1885",
+				"method": "GET"
+			}
+		]
+	}
+}
