@@ -16,6 +16,7 @@ Here i have prepared a lists of test cases using Excel and executed it by using 
 2.Install newman by using npm
 
 ## NEWMAN Report:
+![Screen Shot 2024-08-28 at 12 55 43-fullpage](https://github.com/user-attachments/assets/84d43f43-09d7-4517-9df0-1e917c322391)
 
 
 
