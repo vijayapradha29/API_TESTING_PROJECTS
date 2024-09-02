@@ -1,4 +1,4 @@
-# REST API TESTING-PROJECT#1
+# REST API TESTING(Automation)by using POSTMAN -PROJECT#1
 
 ## PROJECT NAME:restful booker
 
