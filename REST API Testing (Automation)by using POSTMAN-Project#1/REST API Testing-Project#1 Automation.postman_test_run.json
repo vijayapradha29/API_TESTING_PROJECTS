@@ -1,0 +1,290 @@
+{
+	"id": "b496177f-1dbd-4667-b70e-ece2b574ad03",
+	"name": "REST API Testing-Project#1 Automation",
+	"timestamp": "2024-09-02T09:15:36.397Z",
+	"collection_id": "36933065-5c85e244-eafb-4f4f-8926-8c53cc6b8d87",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 11,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2024-09-02T09:15:32.864Z",
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "9cf1eed2-5294-4315-9e9e-b4785050eae1",
+			"name": "Create Booking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 927,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"TC#1-Create Booking": true,
+				"TC#2-Verify that the firstname contains String": true,
+				"TC#3-Verify that lastname conatins string": true,
+				"TC#4-Verify that depositpaid to be boolean": true,
+				"TC#5-Verify that the booking dates-Checkin to be string": true,
+				"TC#6-Verify that the checkout date is a string": true,
+				"TC#7-Verify that additional needs to be a string": true,
+				"TC#9-Verify that the lastname contains numbers": false
+			},
+			"testPassFailCounts": {
+				"TC#1-Create Booking": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC#2-Verify that the firstname contains String": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC#3-Verify that lastname conatins string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC#4-Verify that depositpaid to be boolean": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC#5-Verify that the booking dates-Checkin to be string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC#6-Verify that the checkout date is a string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC#7-Verify that additional needs to be a string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC#9-Verify that the lastname contains numbers": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				927
+			],
+			"allTests": [
+				{
+					"TC#1-Create Booking": true,
+					"TC#2-Verify that the firstname contains String": true,
+					"TC#3-Verify that lastname conatins string": true,
+					"TC#4-Verify that depositpaid to be boolean": true,
+					"TC#5-Verify that the booking dates-Checkin to be string": true,
+					"TC#6-Verify that the checkout date is a string": true,
+					"TC#7-Verify that additional needs to be a string": true,
+					"TC#9-Verify that the lastname contains numbers": false
+				}
+			]
+		},
+		{
+			"id": "6953eb23-c61f-4ef0-9808-ddf617cbb064",
+			"name": "Create Booking scripts",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 201,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"TC#1-Verify that the Firstname is not Null": true
+			},
+			"testPassFailCounts": {
+				"TC#1-Verify that the Firstname is not Null": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				201
+			],
+			"allTests": [
+				{
+					"TC#1-Verify that the Firstname is not Null": true
+				}
+			]
+		},
+		{
+			"id": "6cb0161e-eacf-4b63-b26e-b0e316b50b4d",
+			"name": "Create Booking scripts1",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 202,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"TC#2-Verify that the firstname is not Null": false,
+				"TC#3-Verify that the Firstname is Vijay": true,
+				"TC#4-Verify that the last is black": false,
+				"TC#5-Verify the Status Code": true
+			},
+			"testPassFailCounts": {
+				"TC#2-Verify that the firstname is not Null": {
+					"pass": 0,
+					"fail": 1
+				},
+				"TC#3-Verify that the Firstname is Vijay": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC#4-Verify that the last is black": {
+					"pass": 0,
+					"fail": 1
+				},
+				"TC#5-Verify the Status Code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				202
+			],
+			"allTests": [
+				{
+					"TC#2-Verify that the firstname is not Null": false,
+					"TC#3-Verify that the Firstname is Vijay": true,
+					"TC#4-Verify that the last is black": false,
+					"TC#5-Verify the Status Code": true
+				}
+			]
+		},
+		{
+			"id": "25a10f64-1374-40fd-b15d-2207f7d1fc4a",
+			"name": "Negative Testcase#29-Create Booking with numbers and Special characters in lastname",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 204,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"TC#1-verify that lastname contains numbers and special characters": false
+			},
+			"testPassFailCounts": {
+				"TC#1-verify that lastname contains numbers and special characters": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				204
+			],
+			"allTests": [
+				{
+					"TC#1-verify that lastname contains numbers and special characters": false
+				}
+			]
+		},
+		{
+			"id": "4c20b236-b1f3-4ad1-8471-26a4cd92fac5",
+			"name": "Negative Testcase#28-Create Booking with numbers and characters in firstname",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 203,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"TC#1-verify that firstname contains numbers and characters": true
+			},
+			"testPassFailCounts": {
+				"TC#1-verify that firstname contains numbers and characters": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				203
+			],
+			"allTests": [
+				{
+					"TC#1-verify that firstname contains numbers and characters": true
+				}
+			]
+		},
+		{
+			"id": "4104f101-35b6-40f3-a646-936ef6befa66",
+			"name": "Negative Testcase#22-Create Booking with Special Characters in additional needs",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 202,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"TC#1-verify that additional needs contains special characters": false
+			},
+			"testPassFailCounts": {
+				"TC#1-verify that additional needs contains special characters": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				202
+			],
+			"allTests": [
+				{
+					"TC#1-verify that additional needs contains special characters": false
+				}
+			]
+		},
+		{
+			"id": "a2d25588-f455-4bcd-8833-a4031cc706d5",
+			"name": "Negative Testcase#21-Create Booking with numbers in additional needs",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 201,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				201
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2140,
+	"collection": {
+		"requests": [
+			{
+				"id": "9cf1eed2-5294-4315-9e9e-b4785050eae1",
+				"method": "POST"
+			},
+			{
+				"id": "6953eb23-c61f-4ef0-9808-ddf617cbb064",
+				"method": "POST"
+			},
+			{
+				"id": "6cb0161e-eacf-4b63-b26e-b0e316b50b4d",
+				"method": "POST"
+			},
+			{
+				"id": "25a10f64-1374-40fd-b15d-2207f7d1fc4a",
+				"method": "POST"
+			},
+			{
+				"id": "4c20b236-b1f3-4ad1-8471-26a4cd92fac5",
+				"method": "POST"
+			},
+			{
+				"id": "4104f101-35b6-40f3-a646-936ef6befa66",
+				"method": "POST"
+			},
+			{
+				"id": "a2d25588-f455-4bcd-8833-a4031cc706d5",
+				"method": "POST"
+			}
+		]
+	}
+}
